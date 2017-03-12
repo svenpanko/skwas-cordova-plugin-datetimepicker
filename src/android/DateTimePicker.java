@@ -23,8 +23,6 @@ import android.util.Log;
 import android.widget.DatePicker;
 import android.widget.TimePicker;
 
-import javax.annotation.Nonnull;
-
 public class DateTimePicker extends CordovaPlugin {
 
 	/**
@@ -33,7 +31,6 @@ public class DateTimePicker extends CordovaPlugin {
 	 * Note that not all options are supported, they are here to match the options across all platforms.
 	 */
 	private class DateTimePickerOptions {
-		@Nonnull
 		public String mode = "date";
 		public Date date = new Date();
 		public boolean allowOldDates = true;
